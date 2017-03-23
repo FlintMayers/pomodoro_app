@@ -1,0 +1,155 @@
+body {
+	font-family: Roboto;
+	background: #E55D87; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #E55D87 , #5FC3E4); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #E55D87 , #5FC3E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('put_the_location_to_your_font.ttf or .otf');
+}
+
+#pomo-text {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.well {
+    width: 350px;
+    margin: 40px auto;
+}
+
+#session div {
+    display: inline;
+}
+
+#break div {
+    display: inline;
+}
+
+#current-event {
+    font-size: 30px;
+}
+
+#time {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+
+}
+
+
+.controls {
+    margin: 0 auto;
+}
+
+.controls div {
+    display: inline;
+    padding: 10px;
+}
+
+
+
+/*#setting, #pomotime {*/
+/*    width: 400px;*/
+/*    background-color: black;*/
+/*}*/
+
+/*#pomo-text {*/
+/*    margin: 200px 0 20px 0;*/
+/*    font-size: 50px;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-weight: bold;*/
+
+/*}*/
+
+/*#setting {*/
+/*    height: 100px;*/
+/*}*/
+
+/*.sets {*/
+/*    width: 150px;*/
+/*    height: 50px;*/
+
+/*    display: inline-block;*/
+/*    color: white;*/
+/*    padding: 30px 25px 10px 25px;*/
+/*    position: relative; */
+/*}*/
+
+/*#set-time, #set-break {*/
+/*    margin-left:40px;*/
+/*}*/
+
+/*.downarrow, .uparrow, #set-time, #set-break {*/
+/*	display: inline;*/
+/*	padding: 0 0 0 0;*/
+/*}*/
+
+/*#session {*/
+/*    float: left;*/
+/*    width: 200px;*/
+/*}*/
+/*.text {*/
+/*    font-size: 25px;*/
+/*    text-align: center;*/
+/*    padding-bottom: 10px;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.downarrow {*/
+/*    display: inline;*/
+/*    float: left;*/
+/*}*/
+
+/*.uparrow {*/
+/*    display: inline;*/
+/*    float: right;*/
+/*}*/
+
+/*#break {*/
+/*    float: right*/
+
+/*}*/
+
+/*#pomotime {*/
+/*    height: 250px;*/
+/*    margin-top: 20px;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+
+/*#pomotime div {*/
+/*    display: inline;*/
+/*    padding: 0;*/
+/*    margin: 0 21%;*/
+
+/*}*/
+
+/*#time, #current-event {*/
+/*    color: white;*/
+/*    display: block;*/
+/*    margin: 0 25%;*/
+/*   font-family: 'Orbitron';*/
+/*    }*/
+
+/*#current-event {*/
+/*    font-size: 30px;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-weight: bold;*/
+/*    padding: 0 0 15px 8px;*/
+/*}*/
+
+/*#time {*/
+/*    font-size: 60px;*/
+/*    padding-bottom: 20px;*/
+/*}*/
+
+/*#play, #refresh {*/
+/*    padding-top: 100px;*/
+/*}*/
+
+/*#stop, #pause {*/
+/*    padding-top: 20px;*/
+/*}*/
