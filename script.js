@@ -57,7 +57,7 @@ $(document).ready(function(){
     });
     $('#refresh').on('click', function() {
         refreshToggle = true;
-        $('#time').css('color', 'white');
+        $('#time').css('color', 'black');
         timeToggle = true;
         $("#set-time").text(25);
         displayTime(0, $("#hour"));
