@@ -69,7 +69,7 @@ $(document).ready(function(){
     });
     $('#stop').on('click', function() {
         timeToggle = true;
-        $('#time').css('color', 'white');
+        $('#time').css('color', 'black');
         var seconds = $("#set-time").text() * 60;
         seconds = updateHour(seconds);
         seconds = updateMinute(seconds);
